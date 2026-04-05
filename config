@@ -1,0 +1,24 @@
+# 基础外观
+font-family = JetBrainsMono Nerd Font
+font-size = 13
+
+# 窗口配置
+background-opacity = 0.92
+window-padding-x = 10
+window-padding-y = 6
+
+# 标签栏配置
+gtk-wide-tabs = false
+# 光标
+cursor-style = block
+
+# 快捷键 & 功能
+mouse-hide-while-typing = true
+
+# 标签栏导航快捷键
+keybind = ctrl+shift+h=previous_tab
+keybind = ctrl+shift+l=next_tab
+
+
+keybind = F11=toggle_fullscreen
+keybind = F10=toggle_maximize
