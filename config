@@ -20,5 +20,9 @@ keybind = ctrl+shift+h=previous_tab
 keybind = ctrl+shift+l=next_tab
 
 
+# 全屏与最大化
 keybind = F11=toggle_fullscreen
 keybind = F10=toggle_maximize
+
+# 重命名标题
+keybind = ctrl+shift+r=prompt_tab_title
