@@ -15,10 +15,12 @@ cursor-style = block
 # 快捷键 & 功能
 mouse-hide-while-typing = true
 
+#======================================================
+#                     快捷键配置                      #
+#======================================================
 # 标签栏导航快捷键
 keybind = ctrl+shift+h=previous_tab
 keybind = ctrl+shift+l=next_tab
-
 
 # 全屏与最大化
 keybind = F11=toggle_fullscreen
@@ -26,3 +28,20 @@ keybind = F10=toggle_maximize
 
 # 重命名标题
 keybind = ctrl+shift+r=prompt_tab_title
+
+# 创建分屏
+# 向右分屏（右边新开）
+keybind = ctrl+shift+right=new_split:right
+# 向下分屏（下边新开）
+keybind = ctrl+shift+down=new_split:down
+# 向左分屏（左边新开）
+keybind = ctrl+shift+left=new_split:left
+# 向上分屏（上边新开）
+keybind = ctrl+shift+up=new_split:up
+
+# 聚焦分屏
+keybind = ctrl+h=goto_split:left
+keybind = ctrl+j=goto_split:down
+keybind = ctrl+k=goto_split:up
+keybind = ctrl+l=goto_split:right
+
