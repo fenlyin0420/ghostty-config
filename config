@@ -2,6 +2,13 @@
 font-family = JetBrainsMono Nerd Font
 font-size = 13
 
+# U+23F4–U+23FA 媒体控制符号（⏵ ⏸ ⏹ 等）是字体覆盖盲区：JetBrains Mono 和 Nerd Fonts
+# 都不含这段，系统里也没有任何字体兜底，会让 Claude Code 的 auto mode / plan mode
+# 图标渲染成豆腐块（auto mode 用的是 U+23F5⏵⏵，plan mode 用 U+23F8⏸）。
+# 显式指给 Noto Sans Symbols2（装在 ~/.fonts/）。
+# 注意 family 名是 "Noto Sans Symbols2"，Symbols 与 2 之间没有空格。
+font-codepoint-map = U+23F4-U+23FA=Noto Sans Symbols2
+
 # 窗口配置
 background-opacity = 0.92
 window-padding-x = 10
