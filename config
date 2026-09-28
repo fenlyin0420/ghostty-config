@@ -13,6 +13,8 @@ font-codepoint-map = U+23F4-U+23FA=Noto Sans Symbols2
 background-opacity = 0.92
 window-padding-x = 10
 window-padding-y = 6
+window-width = 100
+window-height = 27
 
 # 标签栏配置
 gtk-wide-tabs = false
